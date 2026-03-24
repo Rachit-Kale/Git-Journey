@@ -1,0 +1,21 @@
+             -- Git Commands --
+
+git init = to initialize git in directory locally
+git clone = to initialize repo from github remotely
+git status = shows all the changes made in that directory
+git add -A / git add --all = stages all the changes across the entire project
+git add . = stages only the changes in that particular directoy
+git reset = resets all the changes
+git commit -m "" = pushes the stagged changes to github with a commit msg in ""
+git reset HEAD~ = roll back to previous state
+git rm <filename> = delete and stages that particular file
+git reset --hard = resets the changes and also brings the deleted files back
+git log = to view commits
+git branch = shows all the branches
+git branch <name> = creates a new branch <name>
+git checkout <name> = switches branch to <name>
+git merge <branch name> = merges <branch name> to current branch
+git diff <commit ID> <commit ID> = compares 2 commits
+git push origin main = Push the main branch to the remote origin
+git fetch = it fetches changes from remote but doesn't merge locally
+git pull = fetch + merge from remote to local
